@@ -5,10 +5,6 @@ import SideBar from '@/components/SideBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Zimo Kanban Board App',
-  description: 'Kanban Board to Manage tasks',
-}
 
 export default function RootLayout({ children }) {
   return (
